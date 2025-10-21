@@ -90,9 +90,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -349,8 +346,74 @@ input[type="submit"] {
 	form {
 		width: 100%;
 	}
-	.picture {
-		width: 80%;
-	}
+.picture {
+	width: 80%;
+}
 }
 
+/* Optimisation des tailles d'images spécifiques */
+img[src*="jakob-owens-SiniLJkXhMc-unsplash.jpg"] {
+	width: 224px;
+	height: 336px;
+	object-fit: cover;
+}
+
+img[src*="nino-van-prattenburg--443cl1uR_8-unsplash.jpg"] {
+	width: 224px;
+	height: 337px;
+	object-fit: cover;
+}
+
+img[src*="nina.png"] {
+	width: 348px;
+	height: 224px;
+	object-fit: cover;
+}
+
+img[src*="hannah-busing-RvF2R_qMpRk-unsplash.jpg"] {
+	width: 280px;
+	height: 224px;
+	object-fit: cover;
+}
+
+img[src*="camera.png"] {
+	width: 336px;
+	height: 335px;
+	object-fit: cover;
+}
+
+img[src*="ryoji-iwata-wUZjnOv7t0g-unsplash.jpg"] {
+	width: 895px;
+	height: 414px;
+	object-fit: cover;
+}
+
+img[src*="austin-neill-hgO1wFPXl3I-unsplash.jpg"] {
+	width: 336px;
+	height: 224px;
+	object-fit: cover;
+}
+
+img[src*="ali-morshedlou-WMD64tMfc4k-unsplash.jpg"] {
+	width: 224px;
+	height: 336px;
+	object-fit: cover;
+}
+
+img[src*="aaron-paul-wnX-fXzB6Cw-unsplash.jpg"] {
+	width: 224px;
+	height: 299px;
+	object-fit: cover;
+}
+
+img[src*="ade-tunji-rVkhWWZFAtQ-unsplash.jpg"] {
+	width: 224px;
+	height: 336px;
+	object-fit: cover;
+}
+
+img[src*="jason-goodman-tHO1_OuKbg0-unsplash.jpg"] {
+	width: 331px;
+	height: 224px;
+	object-fit: cover;
+}
