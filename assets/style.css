@@ -319,3 +319,10 @@ input[type="submit"] {
 	width: 80%;
 }
 }
+
+/* contraste error*/
+.visually-hidden {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #ffffff;
+	padding: 2px 4px;
+}
