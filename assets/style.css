@@ -113,7 +113,8 @@ body {
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	background-color: #5A4F28;
 }
 
 .item-column {
