@@ -117,8 +117,14 @@ body {
 }
 
 .gallery-filter {
+	background-color: transparent;
+	color: black;
+}
+
+.gallery-filter:hover,
+.gallery-filter.active {
 	background-color: #5A4F28;
-	color: #fff;
+	color: white;
 }
 
 .item-column {
